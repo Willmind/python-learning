@@ -4,7 +4,7 @@ from PIL import Image
 
 def demo():
     # 打开要识别的图片
-    image = Image.open("test3.png")
+    image = Image.open("test2.png")
     image = image.convert('L')
     table = []
 
